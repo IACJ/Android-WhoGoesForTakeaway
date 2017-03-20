@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class surviveActivity extends AppCompatActivity {
 
@@ -22,5 +23,6 @@ public class surviveActivity extends AppCompatActivity {
                 finish();
             }
         });
+        //Toast.makeText(surviveActivity.this,"你安全了！",Toast.LENGTH_SHORT).show();
     }
 }

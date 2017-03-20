@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class FailActivity extends AppCompatActivity {
 
@@ -23,5 +24,6 @@ public class FailActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Toast.makeText(FailActivity.this,"少侠敢作敢当！\n请以放歌助兴！",Toast.LENGTH_LONG).show();
     }
 }
