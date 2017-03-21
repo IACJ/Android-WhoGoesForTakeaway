@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/bgimage">
 
     <TextView
         android:layout_width="wrap_content"
@@ -12,13 +13,15 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="67dp" />
     <Button
+        android:background="@drawable/mybutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="【光荣献身】"
         android:id="@+id/button3"
-        android:textSize="21sp"/>
+        android:textSize="18sp"/>
     <Button
+        android:background="@drawable/mybutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/button3"
@@ -27,6 +30,7 @@
         android:text="暗中观察..."
         android:textSize="18sp"/>
     <Button
+        android:background="@drawable/mybutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/button3"
@@ -35,6 +39,7 @@
         android:text="毫不在意~"
         android:textSize="18sp"/>
     <Button
+        android:background="@drawable/mybutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/button3"
@@ -43,6 +48,7 @@
         android:text="手气不错？"
         android:textSize="18sp"/>
     <Button
+        android:background="@drawable/mybutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/button3"
@@ -51,6 +57,7 @@
         android:text="殊死一搏！"
         android:textSize="18sp"/>
     <Button
+        android:background="@drawable/mybutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button6"
